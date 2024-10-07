@@ -1,0 +1,24 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td, th {
+    border: 1px solid #f3f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #86a7bc;
+    color: snow;
+}
