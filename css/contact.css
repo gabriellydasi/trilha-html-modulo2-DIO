@@ -1,0 +1,73 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.content-contact {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
+
+.form {
+    width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 10px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form input{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.name, .email, .topic, .message {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.message textarea {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.buttons button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #86a7bc;
+    color: snow;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+
+.buttons button:hover {
+    background-color: #43708b;
+    font-weight: 600;
+}
